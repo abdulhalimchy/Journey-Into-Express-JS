@@ -8,9 +8,7 @@ To install all dependencies, use the following command -
     npm install
 	
 Here, the starting point is server.js
-
-
-
+_
 ## GET all contact ```GET```
 [http://localhost:3000/api/contacts/](http://localhost:3000/api/contacts/)
 ##### Example of Response
