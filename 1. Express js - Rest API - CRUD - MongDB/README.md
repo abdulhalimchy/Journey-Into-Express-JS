@@ -11,7 +11,7 @@ Here, the starting point is server.js
 
 
 
-#### GET all contact ```GET```
+## GET all contact ```GET```
 [http://localhost:3000/api/contacts/](http://localhost:3000/api/contacts/)
 ##### Example of Response
 ```json
@@ -35,7 +35,7 @@ Here, the starting point is server.js
 
 
 
-#### Get a specific contact with a ID ```GET```
+## Get a specific contact with a ID ```GET```
 [http://localhost:3000/api/contacts/<<id>id>](http://localhost:3000/api/contacts/<id>)
 ##### Example of Response
 ```json
@@ -52,7 +52,7 @@ Here, the starting point is server.js
 
 
 
-#### Add a new contact ```POST```
+### Add a new contact ```POST```
 [http://localhost:3000/api/contacts/](http://localhost:3000/api/contacts/)
 
 ##### Example of Request
@@ -101,7 +101,7 @@ Here, the starting point is server.js
 
 
 
-#### Delete a contact with ID
+### Delete a contact with ID
 [http://localhost:3000/api/contacts/<<id>id>](http://localhost:3000/api/contacts/<id>)
 
 ##### Example of Response
