@@ -99,7 +99,7 @@ _
 
 
 
-## Delete a contact with ID
+## Delete a contact with ID ```DELETE```
 [http://localhost:3000/api/contacts/<<id>id>](http://localhost:3000/api/contacts/<id>)
 
 ##### Example of Response
