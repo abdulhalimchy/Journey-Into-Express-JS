@@ -52,7 +52,7 @@ Here, the starting point is server.js
 
 
 
-### Add a new contact ```POST```
+## Add a new contact ```POST```
 [http://localhost:3000/api/contacts/](http://localhost:3000/api/contacts/)
 
 ##### Example of Request
@@ -73,7 +73,7 @@ Here, the starting point is server.js
 
 
 
-#### Update a specific contact ```PUT```
+## Update a specific contact ```PUT```
 [http://localhost:3000/api/contacts/<<id>id>](http://localhost:3000/api/contacts/<id>)
 
 ##### Example of Request
@@ -101,7 +101,7 @@ Here, the starting point is server.js
 
 
 
-### Delete a contact with ID
+## Delete a contact with ID
 [http://localhost:3000/api/contacts/<<id>id>](http://localhost:3000/api/contacts/<id>)
 
 ##### Example of Response
