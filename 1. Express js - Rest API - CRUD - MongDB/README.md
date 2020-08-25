@@ -8,8 +8,9 @@ To install all dependencies, use the following command -
     npm install
 	
 Here, the starting point is server.js
-<br />
-####GET all contact ```GET```
+
+
+#### GET all contact ```GET```
 
 ------------
 
@@ -33,13 +34,14 @@ Here, the starting point is server.js
     }
 ]
 ```
-<br />
-####Get a specific contact with a ID ```GET```
+
+
+#### Get a specific contact with a ID ```GET```
 
 ------------
 
 [http://localhost:3000/api/contacts/<<id>id>](http://localhost:3000/api/contacts/<id>)
-#####Example of Response
+##### Example of Response
 ```json
 [
     {
@@ -51,14 +53,15 @@ Here, the starting point is server.js
     }
 ]
 ```
-<br />
-####Add a new contact ```POST```
+
+
+#### Add a new contact ```POST```
 
 ------------
 
 [http://localhost:3000/api/contacts/](http://localhost:3000/api/contacts/)
 
-#####Example of Request
+##### Example of Request
 ```json
 {
     "name": "Md. Salman Ahmed",
@@ -67,20 +70,21 @@ Here, the starting point is server.js
 }
 ```
 
-#####Example of Response
+##### Example of Response
 ```json
 {
     "message": "Contact Added"
 }
 ```
-<br />
-####Update a specific contact ```PUT```
+
+
+#### Update a specific contact ```PUT```
 
 ------------
 
 [http://localhost:3000/api/contacts/<<id>id>](http://localhost:3000/api/contacts/<id>)
 
-#####Example of Request
+##### Example of Request
 ```json
 {
     "name": "Md. Salman Chowdhury",
@@ -89,7 +93,7 @@ Here, the starting point is server.js
 }
 ```
 
-#####Example of Response
+##### Example of Response
 ```json
 {
     "message": "Updated Successfully.",
@@ -102,14 +106,15 @@ Here, the starting point is server.js
     }
 }
 ```
-<br />
-####Delete a contact with ID
+
+
+#### Delete a contact with ID
 
 ------------
 
 [http://localhost:3000/api/contacts/<<id>id>](http://localhost:3000/api/contacts/<id>)
 
-#####Example of Response
+##### Example of Response
 ```json
 {
     "message": "Contact Deleted",
@@ -126,4 +131,4 @@ Here, the starting point is server.js
 
 ------------
 
-#####NOTE: Since this is a  practice project,  to get ID of a contact, at first send GET request to get all contacts information, in response you will see that every contact has an unique _id
+##### NOTE: Since this is a  practice project,  to get ID of a contact, at first send GET request to get all contacts information, in response you will see that every contact has an unique _id
