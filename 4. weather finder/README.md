@@ -1,5 +1,6 @@
 # Weather Finder
 Enter the name of the city, you will get the weather information
+Web page: https://simple-weather-finder.herokuapp.com/
 
 ## Install Dependencies
     npm install
